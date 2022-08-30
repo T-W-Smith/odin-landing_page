@@ -57,6 +57,7 @@ ul {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .header {
@@ -67,11 +68,23 @@ ul {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    line-height: 1.2;
 }
 
 .header p {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header .container {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 button {
