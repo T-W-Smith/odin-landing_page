@@ -78,6 +78,8 @@ ul {
 
 .header img {
     max-width: 400px;
+    background-color: gray;
+    
 }
 
 .header .container {
@@ -91,10 +93,33 @@ button {
     background-color: #3882f6;
 }
 
-.boxes h3 {
+.information .container {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.information h3 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    order: -1;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box img {
+    flex: 1;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.box p {
+    text-align: center;
 }
 
 .inspiration {
