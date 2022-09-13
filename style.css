@@ -78,8 +78,7 @@ ul {
 
 .header img {
     max-width: 400px;
-    background-color: gray;
-    
+    background-color: gray; 
 }
 
 .header .container {
@@ -94,7 +93,7 @@ ul {
     border-radius: 6px;
     border: none;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #F9FAF8;
     padding: 6px 28px;
     margin-top: 10px;
 }
@@ -155,15 +154,33 @@ ul {
 }
 
 .signup {
+    background-color: #F9FAF8;
+    min-height: 300px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+.signup .container {
+    width: 100%;
     background-color: #3882f6;
+    border-radius: 5px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup h6 {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .signup button {
     background-color: #3882f6;
     border-radius: 6px;
-    border: 2px solid #E5E7EB;
+    border: 2px solid #F9FAF8;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #F9FAF8;
     padding: 6px 28px;
 }
 
