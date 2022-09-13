@@ -101,6 +101,7 @@ ul {
 
 .information .container {
     min-height: 400px;
+    max-width: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,6 +137,21 @@ ul {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.inspiration .container {
+    min-height: 400px;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inspiration .author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .signup {
