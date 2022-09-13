@@ -186,4 +186,13 @@ ul {
 
 .footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.footer .container {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
