@@ -116,12 +116,15 @@ ul {
 
 .boxes {
     display: flex;
+    gap: 25px;
 }
 
 .box img {
     flex: 1;
     border: 3px solid #3882f6;
     border-radius: 15px;
+    height: auto;
+    width: 250px;
 }
 
 .box p {
