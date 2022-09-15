@@ -98,6 +98,10 @@ ul {
     margin-top: 10px;
 }
 
+.header button:hover {
+    color: #1f2937;
+}
+
 .information .container {
     min-height: 400px;
     max-width: 900px;
@@ -185,6 +189,10 @@ ul {
     font-size: 18px;
     color: #F9FAF8;
     padding: 6px 28px;
+}
+
+.signup button:hover {
+    color: #1f2937;
 }
 
 .footer {
