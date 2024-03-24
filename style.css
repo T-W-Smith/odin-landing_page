@@ -24,6 +24,8 @@ ul {
     margin: 0 auto;
     padding: 0 30px;
 }
+
+/* Nav bar styling */
 .navbar {
     background-color: #125C13;
     color: #F9FAF8;
@@ -60,6 +62,7 @@ ul {
     font-weight: bold;
 }
 
+/* Header styling */
 .header {
     background-color: #3E7C17;
 }
@@ -103,6 +106,7 @@ ul {
     color: #3E7C17;
 }
 
+/* Main box styling */
 .information .container {
     min-height: 400px;
     max-width: 900px;
@@ -190,12 +194,14 @@ ul {
     font-size: 18px;
     color: #F9FAF8;
     padding: 6px 28px;
+    margin-left: 5px;
 }
 
 .signup button:hover {
     color: #3E7C17;
 }
 
+/* Footer styling */
 .footer {
     background-color: #125C13;
     color: #F9FAF8;
@@ -209,6 +215,23 @@ ul {
     align-items: center;
 }
 
+.footer .container img {
+    width: 25px;
+    height: auto;
+    margin: 5px;
+}
+
+.footer .container a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.footer .container a:hover {
+    color: #3E7C17;
+}
+
+/* Smaller window styling */
 @media (max-width: 768px) {
     .header .container {
         flex-direction: column;
